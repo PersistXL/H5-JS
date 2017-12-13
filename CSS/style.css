@@ -1,0 +1,73 @@
+@charset "utf-8";
+#zwk {
+	height: auto;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#top {
+	background-image: url(../Images/top.jpg);
+	height: 150px;
+	width: 100%;
+}
+#top #esc{
+	margin-top: 40px;
+	color: #2b25ff;
+	margin-left: 760px;
+}
+#leftwk {
+	background-image: url(../Images/beijing.jpg);
+	height: 600px;
+	width: 150px;
+	float: left;
+}
+#rightwk {
+	height: 600px;
+	width: 840px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCC;
+	border-left-color: #CCC;
+	float: right;
+}
+#foot {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 25px;
+	color: #FFF;
+	background-color: #999;
+	text-align: center;
+	vertical-align: bottom;
+	height: 150px;
+	width: 100%;
+	clear: both;
+}
+#yhm {
+	font-family: "微软雅黑";
+	font-size: 16px;
+	font-weight: bold;
+	color: #F00;
+	height: 30px;
+	width: 200px;
+	position: relative;
+	left: 750px;
+	top: 30px;
+}
+.anys {
+	font-family: "微软雅黑";
+	font-size: 16px;
+	line-height: 44px;
+	color: #FFF;
+	text-align: center;
+	vertical-align: top;
+	height: 44px;
+	width: 113px;
+	background-image: url(../Images/buffer.jpg);
+	margin-top: 80px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#leftwk .anys a{color:#FFF; text-decoration:none;}
